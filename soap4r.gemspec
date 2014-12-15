@@ -15,7 +15,7 @@ SPEC = Gem::Specification.new do |s|
   s.email = "rubyjedi@gmail.com, nahi@ruby-lang.org"
   s.homepage = "http://wiki.github.com/rubyjedi/soap4r"
 
-  s.add_dependency("httpclient", "~> 2.1.5.2")
+  s.add_dependency("httpclient", "~> 2.4.0")
 
   s.has_rdoc = false # disable rdoc generation until we've got more
   s.requirements << 'none'
